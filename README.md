@@ -1,6 +1,4 @@
-# seattle-airbnb-analysis
-This repository contains the analysis of Seattle Airbnb Open Data to uncover insights about pricing, customer reviews, and neighborhood popularity. The project follows the CRISP-DM process and aims to answer key business questions through data cleaning, exploration, and visualization.
-
+# Seattle Airbnb Data Analysis
 
 ## Introduction
 This project analyzes the Seattle Airbnb Open Data to uncover insights and answer key business questions. The goal is to explore various aspects of Airbnb listings in Seattle, such as pricing, customer reviews, and neighborhood popularity.
@@ -20,9 +18,10 @@ We used three main datasets:
 The analysis highlights that location is a crucial factor in determining the price of Airbnb listings in Seattle. While higher prices may lead to fewer reviews, the quality of reviews (ratings) is not significantly affected by the price.
 
 ## Repository Structure
-- `seattle_airbnb_analysis.ipynb`: Jupyter Notebook with the full analysis.
+- `data_analysis.ipynb`: Jupyter Notebook with the full analysis.
 - `data/`: Directory containing the dataset files.
 - `README.md`: This file.
+- `requirements.txt`: File with the list of required libraries.
 
 ## How to Run
 1. Clone this repository.
@@ -31,4 +30,3 @@ The analysis highlights that location is a crucial factor in determining the pri
 
 ## Acknowledgements
 Thanks to Airbnb and Kaggle for providing the data.
-
